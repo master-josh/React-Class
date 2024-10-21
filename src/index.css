@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgrond{
+    background: url('./assets/cloud-forest-landscape.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    --accent: #ffff
+}
+
+
+.boxes{
+    display: flex;
+    overflow-x: scroll;
+    /* overflow: scroll; */
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+  }
