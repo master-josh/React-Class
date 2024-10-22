@@ -5,6 +5,7 @@ import Animations from './Componets/Animations'
 import Newpage from './Newpage'
 import Render from './Componets/Render'
 import Dash from './Componets/LOGIN/Dash'
+import Maps from './Lists & Maps/Maps'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Animations/> */}
       {/* <Newpage/> */}
       {/* <Render/> */}
-      <Dash/>
+      {/* <Dash/> */}
+      <Maps/>
     </div>
   )
 }

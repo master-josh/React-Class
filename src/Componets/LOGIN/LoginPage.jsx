@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Bgimage from "../../assets/cloud-forest-landscape.jpg";
-import { h1 } from "framer-motion/client";
+import Dashboard from '../LOGIN/Dash'
 
 function LoginPage() {
   const [Inputdata, setInputdata] = useState({
@@ -9,6 +9,7 @@ function LoginPage() {
   });
   const [Inputed, setInputed] = useState(false);
   const [Submit, setSubmit] = useState(false);
+  const [Dash , Setdash] = useState(false)
 
   const HandleUsernameinput = (e) => {
     setInputdata({ ...Inputdata, Username: e.target.value });
@@ -25,8 +26,13 @@ function LoginPage() {
       setInputed(true);
     }
 
+    Setdash(true)
     setSubmit(true);
   };
+
+  if (Dash === true) {
+    return <Dashboard/>
+  }
   return (
     <div className="backgrond h-screen flex flex-col items-center justify-center relative">
       {Inputed ? (

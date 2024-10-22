@@ -6,7 +6,7 @@ import { PiHandWithdrawLight } from "react-icons/pi";
 function Dash() {
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-600 to-gray-800 text-white h-[16rem] w-[60rem] rounded-2xl ml-9 mt-9 pl-10 pt-10 relative">
+      <div className="bg-gradient-to-r from-gray-600 to-gray-800 text-white h-[16rem] w-[60rem] rounded-2xl ml-9 mt-9 pl-10 pt-10 relative mx-auto">
         <div className="flex items-center gap-1">
           <img
             src="https://img.freepik.com/premium-vector/man-with-shirt-that-says-he-is-character_1148251-226.jpg?w=740"
